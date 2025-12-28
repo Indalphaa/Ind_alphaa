@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IND Alpha Evil Gaming</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+
+    body {
+      background: #0b0b0b;
+      color: #fff;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff0000, #ff6a00);
+      padding: 30px 15px;
+    }
+    header h1 {
+      font-size: clamp(24px, 6vw, 36px);
+      color: #fff;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: clamp(12px, 4vw, 16px);
+    }
+
+    .container {
+      padding: 20px 15px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px #ff4500, 0 0 30px #ff6347;
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: scale(1.03); }
+
+    .card h2 { color: #ff944d; margin-bottom: 12px; }
+
+    .games span {
+      display: inline-block;
+      background: #262626;
+      padding: 8px 14px;
+      border-radius: 20px;
+      margin: 6px;
+      font-size: clamp(12px, 3vw, 14px);
+      transition: 0.3s;
+    }
+    .games span:hover {
+      background: #ff4500;
+      box-shadow: 0 0 10px #ff6347;
+      cursor: pointer;
+    }
+
+    .subscribe-btn {
+      display: inline-block;
+      background: red;
+      color: white;
+      padding: 14px 26px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 15px;
+      box-shadow: 0 0 10px red, 0 0 20px #ff6347;
+      transition: 0.3s;
+    }
+    .subscribe-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px red, 0 0 40px #ff6347;
+    }
+
+    .g-ytsubscribe { display: inline-block; margin: 15px auto; }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>IND Alpha Evil Gaming</h1>
+  <p>All Mobile Games • Random Gameplay • Shorts Daily 🔥</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🎮 About Channel</h2>
+    <p>
+      Yahan sabhi popular aur random mobile games ke
+      funny, epic aur viral Shorts milenge 🔥  
+      Jo game tum bolo — wahi khela jayega 😎
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>🔥 Games We Play</h2>
+    <div class="games">
+      <span>Minecraft</span>
+      <span>Free Fire</span>
+      <span>BGMI</span>
+      <span>COD Mobile</span>
+      <span>GTA</span>
+      <span>Stumble Guys</span>
+      <span>Roblox</span>
+      <span>Among Us</span>
+      <span>Random Games</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🛎️ Subscribe Now</h2>
+    <div class="g-ytsubscribe"
+         data-channelid="UCdJrIk5msc7qs7RMnqQz3-g"
+         data-layout="default"
+         data-count="default">
+    </div>
+
+    <a class="subscribe-btn"
+       href="https://www.youtube.com/channel/UCdJrIk5msc7qs7RMnqQz3-g?sub_confirmation=1"
+       target="_blank">
+       Subscribe on YouTube
+    </a>
+  </div>
+
+</div>
+
+<script src="https://apis.google.com/js/platform.js"></script>
+
+</body>
+</html>
